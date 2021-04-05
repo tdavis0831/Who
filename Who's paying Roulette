@@ -1,0 +1,7 @@
+import random
+
+names = input("Please enter the names in your party followed by a comma:")
+
+names_list= names.split(", ")
+
+print("The person that has to pay is " + random.choice(names_list))
